@@ -11,13 +11,13 @@ Y8888P'  `Y88P' YP YP 88 YD Y8888D'
 
 # TODO
 
-add more algos 💯 (syndrome 🔽 but we 🔼)
+add more algos 💯
 
 add a error handling
 
 fix memory issues with lists 😆!
 
-# Deprecated Code
+# "Deprecated" Code
 
 ---
 
