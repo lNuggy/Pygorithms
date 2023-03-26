@@ -354,8 +354,11 @@ if __name__ == "__main__":
         print(f"Generated JSON file containing {args.generate} numbers at {args.file}")
         exit()
 
-    with open(args.file, "r") as f:
-        data = json.load(f)
+    try:
+        with open(args.file, "r") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print(Fore.RED + "File not found or does not exist!" + Fore.RESET)
 
     arr = data
 
