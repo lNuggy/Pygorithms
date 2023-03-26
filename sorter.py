@@ -359,6 +359,7 @@ if __name__ == "__main__":
             data = json.load(f)
     except FileNotFoundError:
         print(Fore.RED + "File not found or does not exist!" + Fore.RESET)
+        exit()
 
     arr = data
 
