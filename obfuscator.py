@@ -14,7 +14,7 @@ def parse_args():
     parser.add_argument(
         "-e", "--encoding", choices=["zlb", "b16", "b32", "b64", "mar"], default="mar", help="Select encoding method"
     )
-    parser.add_argument("-n", "--note", default="# Obscated by Nuggy\n# https://nuggy.neverlose.wtf/s/7yatp01jtb\n", help="Add note to the obfuscated code")
+    parser.add_argument("-n", "--note", default="# Obscated by Nuggy\n# https://lnuggy.github.io/\n", help="Add note to the obfuscated code")
     return parser.parse_args()
 
 
